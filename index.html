@@ -17,67 +17,171 @@
     
     <title>Diego Marques</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <main class="container">
+    <main class="app-main">
 
         <!-- App Header -->
         <header class="app-header">
-            <h1 class="app-header__title">Diego Marques</h1>
-            <h2 class="app-header__subtitle">Product Manager / Full Stack Developer</h2>
+
+            <div class="app-header__content">
+
+                <h1 class="app-header__title">Diego Marques</h1>
+                <h2 class="app-header__subtitle">Full Stack Developer</h2>
+
+                <menu class="app-menu">
+
+                    <ul class="social-list">
+            
+                        <li class="social-list__item">
+                            <a class="social-list__item-buttom" href="https://github.com/dmosantos/" title="Github" target="_blank">
+                                <svg class="social-list__item-icon" alt="Github">
+                                    <use xlink:href="images/icons.svg#github"></use>
+                                </svg>
+                            </a>
+                        </li>
+            
+                        <li class="social-list__item">
+                            <a class="social-list__item-buttom" href="https://www.linkedin.com/in/dmosantos/" title="LinkedIn" target="_blank">
+                                <svg class="social-list__item-icon" alt="LinkedIn">
+                                    <use xlink:href="images/icons.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+            
+                        <li class="social-list__item">
+                            <a class="social-list__item-buttom" href="https://www.instagram.com/dmosantos/" title="Instagram" target="_blank">
+                                <svg class="social-list__item-icon" alt="Instagram">
+                                    <use xlink:href="images/icons.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+            
+                        <li class="social-list__item">
+                            <a class="social-list__item-buttom" href="https://www.facebook.com/profile.php?id=100002041556098" title="Facebook" target="_blank">
+                                <svg class="social-list__item-icon" alt="Facebook">
+                                    <use xlink:href="images/icons.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+            
+                    </ul>
+
+                </menu>
+
+            </div>
+
         </header>
 
         <!-- App Body -->
-        <article class="app-body">
+        <section class="app-body">
 
-            <ul class="social-list">
+            <h2 class="app-body__title">Projects</h2>
 
-                <li class="social-list__item">
-                    <a class="social-list__item-buttom" href="https://github.com/dmosantos/" title="Github" target="_blank">
-                        <svg class="social-list__item-icon" alt="Github">
-                            <use xlink:href="images/icons.svg#github"></use>
-                        </svg>
-                    </a>
-                </li>
+            <div class="row">
 
-                <li class="social-list__item">
-                    <a class="social-list__item-buttom" href="https://www.linkedin.com/in/dmosantos/" title="LinkedIn" target="_blank">
-                        <svg class="social-list__item-icon" alt="LinkedIn">
-                            <use xlink:href="images/icons.svg#linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
+                <!-- Font Awesome The Game -->
+                <div class="col-md-4">
+                    <article class="article-list-item">
 
-                <li class="social-list__item">
-                    <a class="social-list__item-buttom" href="https://www.instagram.com/dmosantos/" title="Instagram" target="_blank">
-                        <svg class="social-list__item-icon" alt="Instagram">
-                            <use xlink:href="images/icons.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </li>
+                        <img class="article-list-item__image-preview" src="images/preview-font-awesome-the-game.jpg" alt="Font Awesome The Game">
 
-                <li class="social-list__item">
-                    <a class="social-list__item-buttom" href="https://www.facebook.com/profile.php?id=100002041556098" title="Facebook" target="_blank">
-                        <svg class="social-list__item-icon" alt="Facebook">
-                            <use xlink:href="images/icons.svg#facebook"></use>
-                        </svg>
-                    </a>
-                </li>
+                        <div class="article-list-item__content">
+                        
+                            <header class="article-list-item__header">
+                                
+                                <h1 class="article-list-item__header-title">Font Awesome The Game</h1>
 
-            </ul>
+                                <ul class="article-list-item__made-with">
+                                    <li class="article-list-item__made-with-item">HTML5</li>
+                                    <li class="article-list-item__made-with-item">JavaScript</li>
+                                    <li class="article-list-item__made-with-item">CSS 3</li>
+                                </ul>
 
-        </article>
+                            </header>
+                            
+                            <p>Um jogo desenvolvido utilizando apenas HTML5, CSS3 e JavaScript com o propósito de estudar as mecânicas de desenvolvimento de um jogo, principalmente entendendo o funcionamento do GameLoop e os processos de Update e Render.</p>
 
-        <!-- App Footer -->
-        <footer class="app-footer">
+                            
+                        </div>
+                        
+                        <ul class="article-list-item__link-list">
 
-            <p>Copyright &copy; 2020 Diego Marques</p>
+                            <li class="article-list-item__link-list-item article-list-item__link-list-item--preview">
+                                <a class="article-list-item__link-list-link" href="/project/font-awesome-the-game/" title="Live Preview" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#live-preview"></use></svg>
+                                </a>
+                            </li>
 
-        </footer>
+                            <li class="article-list-item__link-list-item article-list-item__link-list-item--github">
+                                <a class="article-list-item__link-list-link" href="https://github.com/dmosantos/font-awesome-the-game" title="Github Repositorie" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                        
+                    </article>
+                </div>
+
+                <!-- Evil Bombs Destroyer (P5js) -->
+                <div class="col-md-4">
+                    <article class="article-list-item">
+
+                        <img class="article-list-item__image-preview" src="images/preview-evil-bombs-destroyer-p5js.jpg" alt="Evil Bombs Destroyer (P5js)">
+
+                        <div class="article-list-item__content">
+                        
+                            <header class="article-list-item__header">
+                                
+                                <h1 class="article-list-item__header-title">Evil Bombs Destroyer (P5js)</h1>
+
+                                <ul class="article-list-item__made-with">
+                                    <li class="article-list-item__made-with-item">HTML5</li>
+                                    <li class="article-list-item__made-with-item">JavaScript</li>
+                                    <li class="article-list-item__made-with-item">CSS 3</li>
+                                </ul>
+
+                            </header>
+                            
+                            <p>Versão atualizada utilizando a biblioteca P5js, pronto para ser exportado para Cordova.</p>
+
+                            
+                        </div>
+
+                        <ul class="article-list-item__link-list">
+
+                            <li class="article-list-item__link-list-item article-list-item__link-list-item--preview">
+                                <a class="article-list-item__link-list-link" href="/project/evil-bombs-destroyer-p5js/" title="Live Preview" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#live-preview"></use></svg>
+                                </a>
+                            </li>
+
+                            <li class="article-list-item__link-list-item article-list-item__link-list-item--github">
+                                <a class="article-list-item__link-list-link" href="https://github.com/dmosantos/evil-bombs-destroyer-p5js" title="Github Repositorie" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                        
+                    </article>
+                </div>
+
+            </div>
+
+            <!-- App Footer -->
+            <footer class="app-footer">
+    
+                <p>Copyright &copy; 2020 Diego Marques</p>
+    
+            </footer>
+
+        </section>
 
     </main>
 
