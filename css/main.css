@@ -1,14 +1,32 @@
+
+.collor_palette {
+    background-color: #333;
+    background-color: #252526;
+    background-color: #1e1e1e;
+    color: #4ec9b0;
+    color: #4fc1ff;
+    color: #9cdcfe;
+    color: #d16969;
+    color: #569cd6;
+    color: #d7ba7d;
+    color: #c8c8c8;
+    color: #c586c0;
+    color: #ce9178;
+    color: #dcdcaa;
+    color: #b5cea8;
+}
+
 html {
 
-    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     
 }
 
 body {
     
-    background-color: #394c4c;
-    color: rgba(0, 0, 0, .8);
+    background-color: #1e1e1e;
+    color: #c8c8c8;
+    font-family: 'Source Code Pro', monospace;
     min-height: 100vh;
 
 }
@@ -42,7 +60,7 @@ a:hover {
 /* App Header */
 .app-header {
 
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #252526;
     color: rgba(255, 255, 255, .8);
     max-width: 400px;
     min-width: 400px;
@@ -64,7 +82,8 @@ a:hover {
     
 }
 .app-header__title {
-    
+
+    color: #c586c0;
     font-size: 2.5rem;
     font-weight: 900;
     margin: 0;
@@ -73,7 +92,6 @@ a:hover {
 }
 .app-header__subtitle {
 
-    color: rgba(255, 255, 255, .6);
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0 0 3rem 0;
@@ -148,12 +166,11 @@ a:hover {
 }
 .app-body__title {
 
-    color: rgba(255, 255, 255, .8);
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
+    color: #4ec9b0;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 4rem;
-    text-align: center;
+    margin-bottom: 2rem;
+    text-align: left;
 
 }
 
@@ -217,23 +234,51 @@ a:hover {
     justify-content: center;
     height: 3rem;
     margin: 0 .3rem;
+    transition: all .1s linear;
     width: 3rem;
     
 }
 .social-list__item-buttom:hover {
     
     background-color: rgba(255, 255, 255, .2);
+    transform: scale(1.1);
     
 }
 .social-list__item-buttom:hover .social-list__item-icon {
 
-    fill: rgba(255, 255, 255, 1);
+    fill: #fff;
+    transition: all .1s linear;
+
+}
+.social-list__item-buttom--github:hover {
+
+    background-color: #6cc644;
+
+}
+.social-list__item-buttom--linkedin:hover {
+
+    background-color: #0076b4;
+
+}
+.social-list__item-buttom--instagram:hover {
+
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+
+}
+.social-list__item-buttom--facebook:hover {
+
+    background-color: #395693;
 
 }
 .social-list__item-icon {
     
     display: block;
-    fill: rgba(255, 255, 255, .8);
+    fill: #c8c8c8;
     height: 1.5rem;
     
 }
@@ -241,8 +286,8 @@ a:hover {
 /* App Footer */
 .app-footer {
 
-    color: rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .1);
+    color: #777;
+    border-top: 1px solid #333;
     font-size: .8rem;
     font-weight: 300;
     padding: 1rem 0;
@@ -253,25 +298,25 @@ a:hover {
 /* Article List */
 .article-list-item {
 
+    border: 1px solid #d7ba7d;
     margin-bottom: 4rem;
+    padding: 1rem;
     
 }
 .article-list-item__image-preview {
     
-    border-radius: 5px 5px 0 0;
     display: block;
-    margin: 0 0 1px 0;
+    margin: 0 0 1rem 0;
     width: 100%;
     
 }
 .article-list-item__content {
     
-    background-color: #fff;
-    padding: 1rem;
 
 }
 .article-list-item__header-title {
 
+    color: #d16969;
     font-size: 1.2rem;
     font-weight: 800;
     margin: 0 0 .5rem 0;
