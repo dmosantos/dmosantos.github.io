@@ -11,11 +11,13 @@
         gtag('config', 'UA-179478841-1');
     </script>
 
+    <title>Diego Marques - Programador Full Stack</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Diego Marques</title>
+    <meta name="description" content="Diego Marques - Programador Full Stack">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://diegomarques.com.br/" />
 
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -31,14 +33,14 @@
             <div class="app-header__content">
 
                 <h1 class="app-header__title">Diego Marques</h1>
-                <h2 class="app-header__subtitle">Full Stack Developer</h2>
+                <h2 class="app-header__subtitle">Programador Full Stack</h2>
 
                 <menu class="app-menu">
 
                     <ul class="social-list">
             
                         <li class="social-list__item">
-                            <a class="social-list__item-buttom social-list__item-buttom--github" href="https://github.com/dmosantos/" title="Github" target="_blank">
+                            <a class="social-list__item-buttom social-list__item-buttom--github" href="https://github.com/dmosantos/" title="Github" target="_blank" rel="nofollow">
                                 <svg class="social-list__item-icon" alt="Github">
                                     <use xlink:href="images/icons.svg#github"></use>
                                 </svg>
@@ -46,7 +48,7 @@
                         </li>
             
                         <li class="social-list__item">
-                            <a class="social-list__item-buttom social-list__item-buttom--linkedin" href="https://www.linkedin.com/in/dmosantos/" title="LinkedIn" target="_blank">
+                            <a class="social-list__item-buttom social-list__item-buttom--linkedin" href="https://www.linkedin.com/in/dmosantos/" title="LinkedIn" target="_blank" rel="nofollow">
                                 <svg class="social-list__item-icon" alt="LinkedIn">
                                     <use xlink:href="images/icons.svg#linkedin"></use>
                                 </svg>
@@ -54,7 +56,7 @@
                         </li>
             
                         <li class="social-list__item">
-                            <a class="social-list__item-buttom social-list__item-buttom--instagram" href="https://www.instagram.com/dmosantos/" title="Instagram" target="_blank">
+                            <a class="social-list__item-buttom social-list__item-buttom--instagram" href="https://www.instagram.com/dmosantos/" title="Instagram" target="_blank" rel="nofollow">
                                 <svg class="social-list__item-icon" alt="Instagram">
                                     <use xlink:href="images/icons.svg#instagram"></use>
                                 </svg>
@@ -62,7 +64,7 @@
                         </li>
             
                         <li class="social-list__item">
-                            <a class="social-list__item-buttom social-list__item-buttom--facebook" href="https://www.facebook.com/profile.php?id=100002041556098" title="Facebook" target="_blank">
+                            <a class="social-list__item-buttom social-list__item-buttom--facebook" href="https://www.facebook.com/profile.php?id=100002041556098" title="Facebook" target="_blank" rel="nofollow">
                                 <svg class="social-list__item-icon" alt="Facebook">
                                     <use xlink:href="images/icons.svg#facebook"></use>
                                 </svg>
@@ -80,144 +82,155 @@
         <!-- App Body -->
         <section class="app-body">
 
-            <h2 class="app-body__title">Projects</h2>
+            <div class="container">
+                
+                <h2 class="app-body__title">Projetos</h2>
+                
+                <!-- Minesweeper (Campo Minado) -->
+                <article class="project">
 
-            <div class="row">
+                    <img class="project__image-preview" src="images/preview-minesweeper-vuejs.jpg" alt="Minesweeper (Campo Minado)">
+
+                    <div class="project__content">
+                    
+                        <div class="project__description">
+                        
+                            <header class="project__header">
+                                
+                                <h1 class="project__header-title">Minesweeper (Campo Minado)</h1>
+
+                                <p class="project__header-category">Jogo</p>
+
+                                <ul class="project__made-with">
+                                    <li class="project__made-with-item">VueJS</li>
+                                    <li class="project__made-with-item">Sass</li>
+                                </ul>
+
+                            </header>
+
+                            <p>Versão do clássico Campo Minado desenvolvido em VueJS com o propósito de estudar e entender principalmente a dinâmica de interação entre componentes.</p>
+
+                        </div>
+
+                        <ul class="project__link-list">
+
+                            <li class="project__link-list-item project__link-list-item--preview">
+                                <a class="project__link-list-link" href="/minesweeper/dist/" title="Minesweeper (Campo Minado) Preview" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#play-circle"></use></svg>
+                                    Preview
+                                </a>
+                            </li>
+
+                            <li class="project__link-list-item project__link-list-item--github">
+                                <a class="project__link-list-link" href="https://github.com/dmosantos/minesweeper" title="Minesweeper (Campo Minado) Github Repositorie" target="_blank" rel="nofollow">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
+                                    Github
+                                </a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+
+                </article>
+
+                <!-- Evil Bombs Destroyer (p5.js) -->
+                <article class="project">
+
+                    <img class="project__image-preview" src="images/preview-evil-bombs-destroyer-p5js.jpg" alt="Evil Bombs Destroyer (P5js)">
+
+                    <div class="project__content">
+                    
+                        <div class="project__description">
+                        
+                            <header class="project__header">
+                                
+                                <h1 class="project__header-title">Evil Bombs Destroyer (p5.js)</h1>
+
+                                <p class="project__header-category">Jogo</p>
+
+                                <ul class="project__made-with">
+                                    <li class="project__made-with-item">HTML5</li>
+                                    <li class="project__made-with-item">JavaScript</li>
+                                    <li class="project__made-with-item">p5.js</li>
+                                </ul>
+
+                            </header>
+                            
+                            <p>Versão atualizada utilizando a biblioteca p5.js, pronto para ser exportado para Cordova.</p>
+
+                        </div>
+
+                        <ul class="project__link-list">
+
+                            <li class="project__link-list-item project__link-list-item--preview">
+                                <a class="project__link-list-link" href="/evil-bombs-destroyer-p5js/" title="Evil Bombs Destroyer (p5.js) Preview" target="_blank">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#play-circle"></use></svg>
+                                    Preview
+                                </a>
+                            </li>
+
+                            <li class="project__link-list-item project__link-list-item--github">
+                                <a class="project__link-list-link" href="https://github.com/dmosantos/evil-bombs-destroyer-p5js" title="Evil Bombs Destroyer (p5.js) Github Repositorie" target="_blank" rel="nofollow">
+                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
+                                    Github
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    
+                </article>
 
                 <!-- Font Awesome The Game -->
-                <div class="col-md-4">
-                    <article class="article-list-item">
+                <article class="project">
 
-                        <img class="article-list-item__image-preview" src="images/preview-font-awesome-the-game.jpg" alt="Font Awesome The Game">
+                    <img class="project__image-preview" src="images/preview-font-awesome-the-game.jpg" alt="Font Awesome The Game">
 
-                        <div class="article-list-item__content">
+                    <div class="project__content">
+                    
+                        <div class="project__description">
                         
-                            <header class="article-list-item__header">
+                            <header class="project__header">
                                 
-                                <h1 class="article-list-item__header-title">Font Awesome The Game</h1>
+                                <h1 class="project__header-title">Font Awesome The Game</h1>
 
-                                <ul class="article-list-item__made-with">
-                                    <li class="article-list-item__made-with-item">HTML5</li>
-                                    <li class="article-list-item__made-with-item">JavaScript</li>
-                                    <li class="article-list-item__made-with-item">CSS 3</li>
+                                <p class="project__header-category">Jogo</p>
+
+                                <ul class="project__made-with">
+                                    <li class="project__made-with-item">HTML5</li>
+                                    <li class="project__made-with-item">JavaScript</li>
+                                    <li class="project__made-with-item">CSS 3</li>
                                 </ul>
 
                             </header>
                             
                             <p>Um jogo desenvolvido utilizando apenas HTML5, CSS3 e JavaScript com o propósito de estudar as mecânicas de desenvolvimento de um jogo, principalmente entendendo o funcionamento do GameLoop e os processos de Update e Render.</p>
 
-                            
                         </div>
-                        
-                        <ul class="article-list-item__link-list">
 
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--preview">
-                                <a class="article-list-item__link-list-link" href="/font-awesome-the-game/font-awesome-game.html" title="Preview" target="_blank">
+                        <ul class="project__link-list">
+
+                            <li class="project__link-list-item project__link-list-item--preview">
+                                <a class="project__link-list-link" href="/font-awesome-the-game/font-awesome-game.html" title="Font Awesome The Game Preview" target="_blank">
                                     <svg class="icon"><use xlink:href="images/icons.svg#play-circle"></use></svg>
                                     Preview
                                 </a>
                             </li>
 
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--github">
-                                <a class="article-list-item__link-list-link" href="https://github.com/dmosantos/font-awesome-the-game" title="Github Repositorie" target="_blank">
+                            <li class="project__link-list-item project__link-list-item--github">
+                                <a class="project__link-list-link" href="https://github.com/dmosantos/font-awesome-the-game" title="Font Awesome The Game Github Repositorie" target="_blank" rel="nofollow">
                                     <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
                                     Github
                                 </a>
                             </li>
 
                         </ul>
-                        
-                    </article>
-                </div>
-
-                <!-- Evil Bombs Destroyer (P5js) -->
-                <div class="col-md-4">
-                    <article class="article-list-item">
-
-                        <img class="article-list-item__image-preview" src="images/preview-evil-bombs-destroyer-p5js.jpg" alt="Evil Bombs Destroyer (P5js)">
-
-                        <div class="article-list-item__content">
-                        
-                            <header class="article-list-item__header">
-                                
-                                <h1 class="article-list-item__header-title">Evil Bombs Destroyer (P5js)</h1>
-
-                                <ul class="article-list-item__made-with">
-                                    <li class="article-list-item__made-with-item">HTML5</li>
-                                    <li class="article-list-item__made-with-item">JavaScript</li>
-                                    <li class="article-list-item__made-with-item">CSS 3</li>
-                                </ul>
-
-                            </header>
-                            
-                            <p>Versão atualizada utilizando a biblioteca P5js, pronto para ser exportado para Cordova.</p>
-
-                        </div>
-
-                        <ul class="article-list-item__link-list">
-
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--preview">
-                                <a class="article-list-item__link-list-link" href="/evil-bombs-destroyer-p5js/" title="Preview" target="_blank">
-                                    <svg class="icon"><use xlink:href="images/icons.svg#play-circle"></use></svg>
-                                    Preview
-                                </a>
-                            </li>
-
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--github">
-                                <a class="article-list-item__link-list-link" href="https://github.com/dmosantos/evil-bombs-destroyer-p5js" title="Github Repositorie" target="_blank">
-                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
-                                    Github
-                                </a>
-                            </li>
-
-                        </ul>
-                        
-                    </article>
-                </div>
-
-                <!-- Minesweeper (VueJS) -->
-                <div class="col-md-4">
-                    <article class="article-list-item">
-
-                        <img class="article-list-item__image-preview" src="images/preview-minesweeper-vuejs.jpg" alt="Minesweeper (VueJS)">
-
-                        <div class="article-list-item__content">
-                        
-                            <header class="article-list-item__header">
-                                
-                                <h1 class="article-list-item__header-title">Minesweeper (VueJS)</h1>
-
-                                <ul class="article-list-item__made-with">
-                                    <li class="article-list-item__made-with-item">VueJS</li>
-                                    <li class="article-list-item__made-with-item">Sass</li>
-                                </ul>
-
-                            </header>
-                            
-                            <p>Versão do clássico Campo Minado desenvolvido em VueJS com o propósito de estudar e entender principalmente a dinâmica de interação entre componentes.</p>
-
-                        </div>
-
-                        <ul class="article-list-item__link-list">
-
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--preview">
-                                <a class="article-list-item__link-list-link" href="/minesweeper/dist/" title="Preview" target="_blank">
-                                    <svg class="icon"><use xlink:href="images/icons.svg#play-circle"></use></svg>
-                                    Preview
-                                </a>
-                            </li>
-
-                            <li class="article-list-item__link-list-item article-list-item__link-list-item--github">
-                                <a class="article-list-item__link-list-link" href="https://github.com/dmosantos/minesweeper" title="Github Repositorie" target="_blank">
-                                    <svg class="icon"><use xlink:href="images/icons.svg#github"></use></svg>
-                                    Github
-                                </a>
-                            </li>
-
-                        </ul>
-                        
-                    </article>
-                </div>
+                    
+                    </div>
+                    
+                </article>
 
             </div>
 
