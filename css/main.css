@@ -320,12 +320,6 @@ a:hover {
     width: 300px;
     
 }
-.project:hover .project__image-preview {
-    
-    filter: saturate(1);
-    transform: scale(1.1);
-
-}
 .project__content {
     
     display: flex;
@@ -405,6 +399,17 @@ a:hover {
 .project__link-list-item {
     
     list-style: none;
+
+}
+
+@media (min-width: 992px) {
+
+    .project:hover .project__image-preview {
+
+        filter: saturate(1);
+        transform: scale(1.1);
+
+    }
 
 }
 
