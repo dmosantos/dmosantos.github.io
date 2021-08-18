@@ -609,13 +609,15 @@ a:hover {
 /* Contect Form */
 .contact-form {
 
-    align-items: center;
+    align-items: flex-start;
     background-color: rgba(0, 0, 0, .5);
     backdrop-filter: blur(2px) grayscale(100%);
     display: none;
     justify-content: center;
     left: 0;
     height: 100vh;
+    overflow: auto;
+    padding: 2rem;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -779,4 +781,25 @@ a:hover {
 
     color: #d16969;
     
+}
+
+@media (max-width: 768px) {
+
+    .contact-form--show {
+
+        display: block;
+        padding: 0;
+
+    }
+
+    .form {
+
+        border-radius: 0;
+        min-height: 100vh;
+        padding: 3rem 1.5rem;
+        min-width: 100%;
+        width: 100%;
+
+    }
+
 }
