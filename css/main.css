@@ -20,7 +20,7 @@
 
 html {
 
-    font-size: 15px;
+    font-size: 16px;
     
 }
 
@@ -161,6 +161,11 @@ a:hover {
 }
 
 /* App Body */
+.container {
+
+    padding-bottom: 4rem;
+
+}
 .app-body {
 
     flex-grow: 1;
@@ -174,6 +179,13 @@ a:hover {
     font-weight: 700;
     margin-bottom: 3rem;
     text-align: left;
+
+}
+.app-body__profile-picture {
+
+    float: left;
+    margin: 0 3rem 2rem 0;
+    max-width: 200px;
 
 }
 
@@ -194,6 +206,12 @@ a:hover {
         padding: 3rem 0 0 0;
         
     }
+    .app-body__profile-picture {
+
+        margin: 0 1rem 1rem 0;
+        max-width: 150px;
+
+    }
 
 }
 
@@ -208,6 +226,12 @@ a:hover {
 
         font-size: 3rem;
         text-align: center;
+
+    }
+    .app-body__profile-picture {
+
+        margin: 0 1rem 1rem 0;
+        max-width: 150px;
 
     }
 
