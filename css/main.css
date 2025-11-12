@@ -161,7 +161,7 @@ a:hover {
 }
 .main-menu {
 
-    margin: 0;
+    margin: 0 0 3rem 0;
     padding: 0;
 
 }
@@ -199,21 +199,49 @@ a:hover {
 
 }
 .app-body__title {
-
+    
     color: #4ec9b0;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 3rem;
     text-align: left;
-
+    
 }
 .app-body__profile-picture {
-
+    
     float: left;
     margin: 0 3rem 2rem 0;
     max-width: 200px;
+    
+}
+.app-body__subtitle {
+
+    color: #d16969;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
 
 }
+.app-body__search-input {
+
+    background-color: #252526;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #c8c8c8;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    padding: .8rem 1rem;
+    width: 100%;
+
+}
+.app-body__search-input:focus {
+
+    border-color: #569cd6;
+    outline: none;
+
+}
+
 
 @media (min-width: 992px) and (max-width: 1200px) {
     
@@ -260,6 +288,29 @@ a:hover {
         max-width: 150px;
 
     }
+
+}
+
+/* Skill List */
+.skills-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+}
+.skills-list li {
+
+    background-color: rgba(255, 255, 255, .1);
+    list-style: none;
+    margin: 0 .5rem .5rem 0;
+    padding: .5rem 1rem;
+
+}
+.skills-list li:hover {
+
+    background-color: rgba(255, 255, 255, .2);
 
 }
 

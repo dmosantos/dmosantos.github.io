@@ -83,8 +83,43 @@ var app = new Vue({
             this.contactFormSending = false;
             this.contactFormState = 'fail';
 
+        },
+
+        filterSkills(e) {
+
+            const searchTerm = normalize(e.target.value);
+
+            document.querySelectorAll('.skills-list').forEach( ul => {
+
+                const h2 = ul.previousElementSibling;
+                let foundInThisList = false;
+
+                ul.querySelectorAll('li').forEach( li => {
+
+                    const skillText = normalize(li.textContent || li.innerText);
+
+                    if(skillText.includes(searchTerm)) {
+                        li.style.display = '';
+                        foundInThisList = true;
+                    } else {
+                        li.style.display = 'none';
+                    }
+
+                });
+
+                h2.style.display = foundInThisList ? '' : 'none';
+
+            });
+
         }
 
     }
 
 });
+
+function normalize(txt) {
+    return (txt || '')
+        .toString()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // tira acentos
+        .toLowerCase().trim()
+}

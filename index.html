@@ -83,6 +83,7 @@
 
                     <ul class="main-menu">
                         <li><a href="#sobre" title="Sobre">Sobre</a></li>
+                        <li><a href="#habilidades" title="Habilidades">Habilidades</a></li>
                         <li><a href="#projetos" title="Projetos">Projetos</a></li>
                     </ul>
 
@@ -114,10 +115,146 @@
                 </article>
             </section>
 
+            <!-- Skills -->
+            <section id="habilidades" class="container">
+                <article>
+
+                    <h1 class="app-body__title">Habilidades</h1>
+
+                    <input type="text" class="app-body__search-input" placeholder="Pesquisar habilidades..." @input="filterSkills" />
+
+                    <h2 class="app-body__subtitle">Arquitetura de Software</h2>
+                    <ul class="skills-list">
+
+                        <li>Domain-Driven Design (DDD)</li>
+                        <li>Modelagem de Dados (ER / Conceitual, Lógica e Física)</li>
+                        <li>Design Patterns</li>
+                        <li>CQRS</li>
+                        <li>SOLID</li>
+                        <li>Clean Architecture</li>
+                        <li>API Design (REST)</li>
+                        <li>Documentação e comunicação arquitetural (C4 Model, ADRs)</li>
+                        <li>Microsserviços</li>
+                        <li>Mensageria (RabbitMQ)</li>
+                        <li>Integração de Sistemas</li>
+                        <li>API Gateway</li>
+                    
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Infraestrutura, DevOps e Cloud</h2>
+                    <ul class="skills-list">
+
+                        <li>Git</li>
+                        <li>Windows Server</li>
+                        <li>Linux / Linux Server</li>
+                        <li>Webservers (Apache, Nginx, IIS)</li>
+                        <li>Provedores de Nuvem (Azure, OCI, AWS)</li>
+                        <li>Serverless Platforms (Heroku, Vercel, Netlify, Render)</li>
+                        <li>Containerização e Orquestração (Docker, Kubernetes, K3s, ECS)</li>
+                        <li>CI/CD (Github Actions, Azure DevOps Pipeline)</li>
+                        <li>Segurança e Governança em Nuvem (IAM, TLS)</li>
+                        <li>Escalabilidade Horizontal e Vertical</li>
+                        <li>Monitoramento e Observabilidade (Prometheus, Grafana, AWS CloudWatch)</li>
+                        <li>DNS (Cloudflare, AWS Route 53)</li>
+                        <li>VMs (AWS EC2, OCI Compute, Azure VMs)</li>
+                        <li>Load Balancers (AWS ELB, Nginx, IIS)</li>
+                        <li>CDN (Cloudflare, AWS CloudFront)</li>
+                        <li>Object Storage (AWS S3, OCI Object Storage)</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Desenvolvimento Back-end</h2>
+                    <ul class="skills-list">
+
+                        <li>.NET (C#, ASP.NET, Entity Framework, Dapper)</li>
+                        <li>NodeJS (JavaScript, TypeScript, ExpressJS, NestJS)</li>
+                        <li>PHP</li>
+                        <li>Laravel / Lumen</li>
+                        <li>Wordpress</li>
+                        <li>Python (Flask)</li>
+                        <li>ASP3</li>
+                        <li>OpenAPI / Swagger</li>
+                        <li>gRPC</li>
+                        <li>WebSockets / SignalR</li>
+                        <li>JWT</li>
+                        <li>OAuth2</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Desenvolvimento Front-end</h2>
+                    <ul class="skills-list">
+                        
+                        <li>VueJS (2 e 3)</li>
+                        <li>ReactJS</li>
+                        <li>HTML5</li>
+                        <li>CSS3 / Sass</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>Bootstrap</li>
+                        <li>jQuery</li>
+                        <li>P5js</li>
+                        <li>Design Responsivo</li>
+                        <li>Cordova e PWA</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Banco de Dados</h2>
+                    <ul class="skills-list">
+
+                        <li>MySQL</li>
+                        <li>SQL Server</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>Redis</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Gestão de Liderança</h2>
+                    <ul class="skills-list">
+
+                        <li>Gestão e Gerenciamento de Equipes</li>
+                        <li>Relacionamento com Clientes</li>
+                        <li>SCRUM</li>
+                        <li>LGPD</li>
+                        <li>Azure DevOps</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">UX / Design</h2>
+                    <ul class="skills-list">
+
+                        <li>Criação de Logotipo / Identidade Visual</li>
+                        <li>Mídia Impressa</li>
+                        <li>Web Design</li>
+                        <li>Criação de Artes para Mídias Sociais</li>
+                        <li>Edição de Vídeo (Sony Vegas)</li>
+                        <li>Usabilidade</li>
+                        <li>Acessibilidade</li>
+                        <li>Arquitetura de Informação</li>
+                        <li>Prototipação (Axure, Figma)</li>
+
+                    </ul>
+
+                    <h2 class="app-body__subtitle">Marketing Digital</h2>
+                    <ul class="skills-list">
+
+                        <li>SEO</li>
+                        <li>Google Adwords</li>
+                        <li>Funil de Conversão</li>
+                        <li>Criação e Manutenção de Campanhas</li>
+                        <li>Tráfego Pago e Orgânico</li>
+                        <li>E-mail Marketing</li>
+                        <li>Mídias Sociais</li>
+
+                    </ul>
+                
+                </article>
+            </section>
+
             <!-- Projects -->
             <section id="projetos" class="container">
                 
-                <h2 class="app-body__title">Projetos</h2>
+                <h1 class="app-body__title">Projetos</h1>
 
                 <!-- Sir-Byonic -->
                 <article class="project">
