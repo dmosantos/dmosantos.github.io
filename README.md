@@ -24,6 +24,7 @@ As competências estão organizadas por áreas, incluindo:
 - Back-end (.NET, Node.js, PHP, Python)
 - Inteligência Artificial (Prompt Engineering, RAG)
 - Front-end (Vue.js, React, HTML/CSS, TypeScript)
+- Qualidade de Software (testes unitários, de integração e end-to-end com Playwright)
 - Banco de Dados (MySQL, SQL Server, PostgreSQL, MongoDB, Redis)
 - Gestão e Liderança (SCRUM, liderança de equipes)
 - UX / Design / Marketing Digital (SEO, campanhas, mídia social)
